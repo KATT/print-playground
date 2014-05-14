@@ -13,7 +13,7 @@ app.post('/print', function(req, res) {
 		print(str);
 	}
 	res.writeHead(301, {"Location": "/"});
-    res.end();
+  res.end();
 });
 
 app.listen(app.get('port'), function() {
