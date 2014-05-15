@@ -1,4 +1,4 @@
-var stringBytechunk = require('../lib/string-bytechunk');
+var stringBytechunk = require('../lib/split-string-by-bytes');
 
 var assert = require("assert");
 
